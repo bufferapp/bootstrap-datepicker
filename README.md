@@ -5,7 +5,7 @@ Our own fork of eternicode's bootstrap datepicker that includes time selection.
 
 ## Changes
 
-We've made some major changes to this fork of bootstrap datepicker. The main change is the ability to select time in a simple and easy way. Below we document some of these changes. For the original usage, see the [eternicode's docs](http://bootstrap-datepicker.readthedocs.org/)
+We've made some major changes in this fork of the bootstrap datepicker. The main change is the ability to select time in a simple and easy way. Below we document some of these changes. For the original usage, see [eternicode's docs](http://bootstrap-datepicker.readthedocs.org/)
 
 ## Options
 
@@ -63,7 +63,7 @@ The listener above is definitely a good idea for us to simplify in the future.
 
 ## Some missing changes
 
-Unfortunately, our fork of the bootstrap datepicker is a bit out of date from [eternicode's fork](https://github.com/eternicode/bootstrap-datepicker). For example we don't have the multidate selectors & orientation parameters present among some other changes. We've decided to release our version as is. We can update it if users are keen to see of the eternicode's features added back in.
+Unfortunately, our fork of the bootstrap datepicker is a bit out of date from [eternicode's fork](https://github.com/eternicode/bootstrap-datepicker). For example we don't have the multidate selectors & orientation parameters present among some other changes. We've decided to release our version as is. We can update it if users are keen to see some of eternicode's features added back in.
 
 ## Contributing
 
