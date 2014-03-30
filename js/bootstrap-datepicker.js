@@ -172,8 +172,8 @@
 				o.meridiem = 'am';
 			}
 
-			if (o.hour < 10) o.hour = '0'+o.hour;
-			if (o.minute < 10) o.minute = '0'+o.minute;
+			if (o.hour < 10 && o.hour.length == 1) o.hour = '0'+o.hour;
+			if (o.minute < 10 && o.minute.length == 1) o.minute = '0'+o.minute;
 
 			o.daysOfWeekDisabled = o.daysOfWeekDisabled||[];
 			if (!$.isArray(o.daysOfWeekDisabled))
