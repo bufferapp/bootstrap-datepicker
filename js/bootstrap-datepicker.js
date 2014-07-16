@@ -505,7 +505,7 @@
 				// First check if date is smaller in timestamp to disable it
 				if (date.valueOf() < this.o.startDate) {
 					// However, check if the date threshold has been reached, this overrides it
-					if (date.getDate() < this.o.startDate.getDate()) {
+					if (date.getUTCDate() < this.o.startDate.getUTCDate()) {
 						cls.push('disabled');
 					}
 				}
